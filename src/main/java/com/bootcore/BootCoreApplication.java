@@ -21,6 +21,8 @@ import com.bootcore.beans.Robot;
 */
 public class BootCoreApplication {
 	public static void main(String[] args) {
+		int x=20;
+		int y=10;
 		ApplicationContext context=SpringApplication.run(BootCoreApplication.class, args);
 		                         //new AnnotationConfigApplicationContext(BootCoreApplication.class);
 		Robot robot=context.getBean(Robot.class);
