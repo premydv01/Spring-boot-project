@@ -11,7 +11,7 @@ import org.springframework.context.annotation.PropertySource;
 
 import com.bootcore.beans.Robot;
 
-@SpringBootApplication
+
  /*
   * insted of writing these three Annotation SpringBoot provided one annotation @SpringBootApplication 
 @Configuration
@@ -19,6 +19,7 @@ import com.bootcore.beans.Robot;
 @ComponentScan(basePackages = "com.bootcore.beans")
 
 */
+@SpringBootApplication
 public class BootCoreApplication {
 	public static void main(String[] args) {
 		int x=20;
