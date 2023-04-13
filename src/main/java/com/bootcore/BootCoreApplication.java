@@ -27,6 +27,7 @@ public class BootCoreApplication {
 		                         //new AnnotationConfigApplicationContext(BootCoreApplication.class);
 		Robot robot=context.getBean(Robot.class);
 		System.out.println(robot);
+//
 	}
 
 }
