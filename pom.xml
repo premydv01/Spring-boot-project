@@ -25,7 +25,7 @@
     <version>2.7.3</version>
 </dependency>
 <!-- -->
-  </dependencies>
+</dependencies>
 
   <build>
     <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
